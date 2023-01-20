@@ -1,5 +1,7 @@
 # Watch Together
 
+Notice: This project was deprecated in 2015 and will no longer be maintained.
+
 A Chrome extension that allows multiple users to synchronize their streams on a popular streaming
 service, making use of an intermediary Node.js server for peer to peer communication.
 
