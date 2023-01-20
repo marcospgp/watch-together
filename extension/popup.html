@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>WarezTogether</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<style>
+			body {
+				min-width: 350px;
+				overflow-x: hidden;
+				margin-bottom: 32px;
+			}
+
+			.title {
+				margin-bottom: 18px;
+			}
+		</style>
+		<script src="js/vendor/jquery.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/popup.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-10">
+
+					<h3 class="title">WarezTogether</h3>
+
+					<h4>Entra numa sala</h4>
+					<div class="input-group">
+						<input type="text" id="enter-input" class="form-control" placeholder="Nome da sala...">
+						<span class="input-group-btn">
+							<button id="enter-button" class="btn btn-default" type="button">Entrar</button>
+						</span>
+					</div>
+
+					<span id="error-message" class="text-danger"></span>
+					<span id="success-message" class="text-success"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
